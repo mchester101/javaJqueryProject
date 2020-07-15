@@ -12,8 +12,6 @@
     //     } else {
     //       $($questions.get(currentQuestion)).fadeIn();
     //     }
-    //     });
-    // });  
 $(document).ready(function() {
   $("form#quiz").submit(function() {    
     event.preventDefault();
@@ -32,7 +30,6 @@ $(document).ready(function() {
   } else {
     result = "You would be most happy learning C#."
   }
-
   $("#output").text(result);
 
   });
