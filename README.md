@@ -3,7 +3,7 @@
 ## Description
 This site allows the user to take a quiz to fond out which programming language they are most suited for.
 ## Setup
-No setup required
+Link to git hub pages: https://mchester101.github.io/javaJqueryProject/
 ## Technologies Used
 HTML
 CSS
