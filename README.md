@@ -3,6 +3,9 @@
 ## Description
 This site allows the user to take a quiz to fond out which programming language they are most suited for.
 ## Setup
+Clone this project:
+Click on index.html to start application
+Opens to quiz page to take quiz
 Link to git hub pages: https://mchester101.github.io/javaJqueryProject/
 ## Technologies Used
 HTML
