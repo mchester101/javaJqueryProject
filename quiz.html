@@ -8,111 +8,105 @@
     <title>Programming Language Suggester</title>
   </head>
   <body>
-  <div class='container'>
-  <form id="quiz">
+    <div class='container'>
+      <form id="quiz">
+        <h3>Which of these describes your perfect weeked?</h3>
+        <div class='radio'>
+          <label>
+            <input type='radio' name='question1' value='0'>
+            A quiet and relaxing weekend at home.
+            </label>    
+        </div>
+        <div class='radio'>
+          <label>
+            <input type='radio' name='question1' value='5'>
+            Useing my free time to catch up on all my work I need to get done!
+          </label>    
+        </div>
+        <div class='radio'>
+          <label>
+            <input type='radio' name='question1' value='10'>
+            Heading out to a music festival with friends!
+          </label>
+        </div>    
+        <h3>My drink of choice when I go out to restaurants or bars is...</h3>
+        <div class='radio'>
+          <label>
+            <input type='radio' name='question2' value='0'>
+            Beer or wine, no frills please.
+          </label>    
+        </div>
+        <div class='radio'>
+          <label>
+            <input type='radio' name='question2' value='5'>
+            Water, gotta stay hydrated and keep the mind sharp!
+          </label>    
+        </div>
+        <div class='radio'>
+          <label>
+            <input type='radio' name='question2' value='10'>
+            Anything that has an umbrella on it.
+          </label>
+        </div>
+        <h3>My friends always know that they can find me...</h3>
+        <div class='radio'>
+          <label>
+            <input type='radio' name='question3' value='0'>
+            Hanging out with my two fat tabbies.
+          </label>    
+        </div>
+        <div class='radio'>
+          <label>
+            <input type='radio' name='question3' value='5'>
+            At the bookstore, checking out the latest releases.
+        </div>
+        <div class='radio'>
+          <label>
+            <input type='radio' name='question3' value='10'>
+            They never know where I'll turn up!
+          </label>
+        </div>     
+        <h3>My closet is filled with..</h3>
+        <div class='radio'>
+          <label>
+            <input type='radio' name='question3' value='0'>
+            T-shirts and sweat pants.
+          </label>    
+        </div>
+        <div class='radio'>
+          <label>
+            <input type='radio' name='question3' value='5'>
+            Monochrome and dark colors.
+        </div>
+        <div class='radio'>
+          <label>
+            <input type='radio' name='question3' value='10'>
+            Patterns, Tie Dye, and bright colors.
+          </label>
+        </div>      
+        <h3>If I won the lottery I would...</h3>
+        <div class='radio'>
+          <label>
+            <input type='radio' name='question3' value='0'>
+            Buy a farm and become a homesteader.
+          </label>    
+        </div>
+        <div class='radio'>
+          <label>
+            <input type='radio' name='question3' value='5'>
+            Invest in the stock market.
+        </div>
+        <div class='radio'>
+          <label>
+            <input type='radio' name='question3' value='10'>
+            Use the money to travel the world!
+          </label>
+        </div> 
+        <button type='submit' class='btn'>Submit your answers</button>
+      </form>
+      <div id="output">
 
-    <h3>Which of these describes your perfect weeked?</h3>
-    <div class='radio'>
-      <label>
-        <input type='radio' name='question1' value='0'>
-        A quiet and relaxing weekend at home.
-      </label>    
-    </div>
-    <div class='radio'>
-      <label>
-        <input type='radio' name='question1' value='5'>
-        Useing my free time to catch up on all my work I need to get done!
-      </label>    
-    </div>
-    <div class='radio'>
-      <label>
-        <input type='radio' name='question1' value='10'>
-        Heading out to a music festival with friends!
-      </label>
-    </div>
-    
-    <h3>My drink of choice when I go out to restaurants or bars is...</h3>
-    <div class='radio'>
-      <label>
-        <input type='radio' name='question2' value='0'>
-        Beer or wine, no frills please.
-      </label>    
-    </div>
-    <div class='radio'>
-      <label>
-        <input type='radio' name='question2' value='5'>
-        Water, gotta stay hydrated and keep the mind sharp!
-      </label>    
-    </div>
-    <div class='radio'>
-      <label>
-        <input type='radio' name='question2' value='10'>
-        Anything that has an umbrella on it.
-      </label>
-    </div>
-
-    <h3>My friends always know that they can find me...</h3>
-    <div class='radio'>
-      <label>
-        <input type='radio' name='question3' value='0'>
-        Hanging out with my two fat tabbies.
-      </label>    
-    </div>
-    <div class='radio'>
-      <label>
-        <input type='radio' name='question3' value='5'>
-        At the bookstore, checking out the latest releases.
-    </div>
-    <div class='radio'>
-      <label>
-        <input type='radio' name='question3' value='10'>
-        They never know where I'll turn up!
-      </label>
-    </div>     
-
-    <h3>My closet is filled with..</h3>
-    <div class='radio'>
-      <label>
-        <input type='radio' name='question3' value='0'>
-        T-shirts and sweat pants.
-      </label>    
-    </div>
-    <div class='radio'>
-      <label>
-        <input type='radio' name='question3' value='5'>
-        Monochrome and dark colors.
-    </div>
-    <div class='radio'>
-      <label>
-        <input type='radio' name='question3' value='10'>
-        Patterns, Tie Dye, and bright colors.
-      </label>
+      </div>
     </div>  
-    
-    <h3>If I won the lottery I would...</h3>
-    <div class='radio'>
-      <label>
-        <input type='radio' name='question3' value='0'>
-        Buy a farm and become a homesteader.
-      </label>    
-    </div>
-    <div class='radio'>
-      <label>
-        <input type='radio' name='question3' value='5'>
-        Invest in the stock market.
-    </div>
-    <div class='radio'>
-      <label>
-        <input type='radio' name='question3' value='10'>
-        Use the money to travel the world!
-      </label>
-    </div> 
-    <button type='submit' class='btn'>Submit your answers</button>
-  </form>
-  <div id="output">
-
-  </div>
-</div>  
-</div>
 </body>
 </html>
