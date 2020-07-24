@@ -1,7 +1,7 @@
 # Programming Language Quiz Site
 ## Authored by: Madison Chester
 ## Description
-This site allows the user to take a quiz to fond out which programming language they are most suited for.
+This site allows the user to take a quiz to find out which programming language they are most suited for.
 ## Setup
 Clone this project:
 Click on index.html to start application
