@@ -17,6 +17,5 @@ $(document).ready(function() {
     result = "You would be most happy learning C#."
   }
   $("#output").text(result);
-
   });
 });
